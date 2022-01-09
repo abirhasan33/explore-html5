@@ -1,0 +1,30 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 20px;
+}
+nav li:hover{
+    background-color: lightcoral;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav > ul > li:hover >li{
+    display: block;
+}
+
+.dorpdown{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    padding: 0;
+}
+.dorpdown li{
+    padding: 0 20px;
+    margin: 0;
+}
